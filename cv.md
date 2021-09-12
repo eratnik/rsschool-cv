@@ -1,22 +1,23 @@
-# Резюме соискателя работы на должность junior front-end
+# Vitali Kamarouski
 
-### Личные данные соискателя
-![Фото](https://media-exp1.licdn.com/dms/image/C4E03AQHjDOGLOJMrVA/profile-displayphoto-shrink_800_800/0/1516783707631?e=1635984000&v=beta&t=Yt-AiXsNoIFgbDxNJyyCCAepfGTZMLl4cc-vb3jcxUY)
-* **First name:** Vitali
-* **Second name:** Kamarouski
-* **e-mail:** eratnik@gmail.com
-* **tel.:** +375293677519
-
-**Краткая информация о себе:**
-(ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении и способности быстро учиться и узнавать новое)
-**Навыки** (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-**Примеры кода**
-**Опыт работы:** Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.
-**Образование:** юридический факультет ГГУ им.Ф.Скорины, специальность правовое обеспечение бизнеса, онлайн-обучение в The Rolling Scopes.
-**Английский язык:** A0
+## **Contact info:**
+**Name:** Vitali Kamarouski<br>
+**e-mail:** eratnik@gmail.com<br>
+**Phone:** +375 (29) 3677519<br>
+**GitHub:** [Vitali Kamarouski](https://github.com/eratnik)<br>
+---
+## **About me:**
+I'm a 34 old, I work to tender management specialist in an oil company. I like to learn something new so I decided to learn the frontend. At my work i had an experience to SAP, Directum, data analysis and act as a lecturer.<br>
+**Scills:** java (basic), Git/GitHub, html (basic), css (basic).<br>
+**Education:** Francysk Skaryna Homiel State University, major - jurisprudence, and now I learn stage 0 The Rolling Scope School.<br>
+**Languages:**
+Russian - native speaker.<br>
+French - A2.<br>
+English - A0 (A1 in process…).<br>
+----
+### Code example: 
 ```
 public class Main {
-
     public static void main(String[] args) {
         int[] array = {3, 2, 1};
         int[] arrayTwo = {43, 32, 95, 7, 50, 96, 4, 45, 40, 68, 30, 85, 83, 75, 59, 2, 89, 76, 93, 12, 82, 9, 52, 49, 27, 3, 20, 26, 48};
@@ -54,4 +55,4 @@ public class Main {
         System.out.println();
     }
     }
-    ```
+```
