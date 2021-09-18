@@ -1,29 +1,35 @@
+:root {
+--footer-color: #1A3F59;
+--code-color: #D1ECFF;
+--background-color: white
+
+}
+
 html {
   font: 20px Verdana;
   width: 1024px;
   margin: 40px auto;
   padding: 40px;
-
+  border: solid 5px var(--footer-color) ;
 }
 
 section { /*this flexbox have 3 div: contacts-photo, code and footer*/
   display: flex;
   flex-direction: column;
-  background-color: cornsilk;
+  background-color: var(--background-color);
 }
 
 
 div.contacts-photo { /*this flexbox have 2 items: photo and info*/
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: flex-start;
   justify-content: space-between;
   padding: 20px;
 }
 .photo {
-  width: 250px;
   margin: 10px;
-  border: 10px solid white;
+  border: 10px solid var(--footer-color);
   border-radius: 50%;
   flex: 0.2 204px;
 }
@@ -33,14 +39,13 @@ div.info {
 }
 
 div.code {
-  background-color: #f5f5f5;
+  background-color: var(--code-color);
   padding: 0px 10px 0px;
-  margin: 10px;
+  
 }
 pre {
   padding: 20px;
   font-family: monospace;
-
   font-size: 12px;
 }
 
@@ -50,12 +55,14 @@ footer { /*This flexbox have 3 items: GitHub, year and RSSchool */
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: grey;
+  background-color: var(--footer-color);
   font: bold 16px Verdana;
   padding-right: 20px;
+  color: white;
 }
 .my-github {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
