@@ -8,7 +8,7 @@
 ---
 ## **About me:**
 I'm a 34 old, I work to tender management specialist in an oil company. I like to learn something new so I decided to learn the frontend. At my work i had an experience to SAP, Directum, data analysis and act as a lecturer.<br>
-**Scills:** java (basic), Git/GitHub, html (basic), css (basic).<br>
+**Skills:** java (basic), Git/GitHub, html (basic), css (basic).<br>
 **Education:** Francysk Skaryna Homiel State University, major - jurisprudence, and now I learn stage 0 The Rolling Scope School.<br>
 **Languages:**
 Russian - native speaker.<br>
@@ -45,7 +45,7 @@ public class Main {
             }
         }
         System.out.println("Произведено " + comparisonsDone + " проверок" + " и " + swampsDone + " замен");
-        System.out.println("Длинна массива составляет " + array.length);
+        System.out.println("Длина массива составляет " + array.length);
     }
     static void printArray(int[] array) {
         for (int i = 0; i < array.length; i++) {

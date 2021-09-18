@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Vitali Kamarouski">
+  <meta name="description" content="">
+  <meta type="keywords" content="rsschool, stage0, cv, resume, ">
+  <title>Vitali Kamarouski</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <section>
+
+      <div class="contacts-photo">
+        <img class="photo" src="pics/portrait.png" alt="photo" width="204">
+        <div class="info">
+          <strong>Name</strong> Vitali Kamarouski<br>
+          <strong>e-mail:</strong> eratnik@gmail.com<br>
+          <strong>Phone:</strong> +375 (29) 3677519<br>
+          <a href="https://github.com/eratnik/"><strong>GitHub</strong></a><br>
+          <a href="https://www.linkedin.com/in/vitali-kamarouski-2212527b"><strong>Linkedin</strong></a>
+          <h3>About me:</h3>
+          <p>I’m a 34 old, I work to tender management specialist in an oil company. I like to learn something new so I
+            decided to learn the frontend. At my work i had an experience to SAP, Directum, data analysis and act as a
+            lecturer.<br>
+            <strong>Scills:</strong> java (basic), Git/GitHub, html (basic), css (basic).<br>
+            <strong>Education:</strong> Francysk Skaryna Homiel State University, major - jurisprudence, and now I learn
+            stage 0 The Rolling Scope School.<br>
+            <strong>Languages:</strong><br>
+            Russian - native speaker.<br>
+            French - A2.<br>
+            English - A0 (A1 in process…).<br>
+          </p>
+        </div>
+      </div>
+
+      <div class="code">
+        <h4>Code example</h4>
+        <pre><code>
+public class Main {
+  public static void main(String[] args) {
+      int[] array = {3, 2, 1};
+      int[] arrayTwo = {43, 32, 95, 7, 50, 96, 4, 45, 40, 68, 30, 85, 83, 75, 59, 2, 89, 76, 93, 12, 82, 9, 52, 49, 27, 3, 20, 26, 48};
+      bubbleSort(arrayTwo);
+  }
+  static void bubbleSort (int[] array) {
+      int comparisonsDone = 0; //количество сравнений
+      int swampsDone = 0; //количество замен
+      boolean sorted = false;
+      while (!sorted) {
+          sorted = true;
+          for (int i = 0; i < array.length - 1; i++) {
+              printArray(array);
+              if (array[i] > array[i + 1]) {
+                  int temp = array[i];
+                  array[i] = array[i + 1];
+                  array[i + 1] = temp;
+                  swampsDone++;
+                  sorted = false;
+                  System.out.println("произведена замена " + array[i + 1] + " на " + array[i] + ", замена является " + swampsDone + " по счету");
+              } else {
+                  System.out.println("нет смысла меня местами элементы " + array[i] + " и " + array[i + 1]);
+              }
+              comparisonsDone++;
+          }
+      }
+      System.out.println("Произведено " + comparisonsDone + " проверок" + " и " + swampsDone + " замен");
+      System.out.println("Длинна массива составляет " + array.length);
+  }
+  static void printArray(int[] array) {
+      for (int i = 0; i < array.length; i++) {
+          System.out.print(array[i]);
+          System.out.print(" ");
+      }
+      System.out.println();
+  }
+  }
+          </code></pre>
+      </div>
+
+      <footer>
+        <a class="my-github" href="https://github.com/eratnik"><img src="pics/github.svg" alt="GitHub logo" width="73"
+            height="26">
+          <p>my GitHub</p>
+        </a>
+        <p>2021</p>
+        <a href="https://rs.school/js/"><img src="pics/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26"></a>
+      </footer>
+
+    </section>
+
+  </main>
+</body>
+
+
+</html>
